@@ -1,0 +1,24 @@
+{
+  "name": "sanity-to-markdown",
+  "version": "1.0.0",
+  "description": "Convert Sanity.io Portable Text to Markdown.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "@sanity/block-content-to-markdown": "0.0.5",
+    "@sanity/client": "0.144.0",
+    "express": "4.17.1",
+    "get-youtube-id": "1.0.1",
+    "groq": "0.144.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "portable text",
+    "markdown",
+    "sanity.io"
+  ]
+}
